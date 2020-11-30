@@ -8,69 +8,108 @@
 
 header{
     width: 100%;
-    height: 100px;
-    background-color: rgb(245, 241, 241);
-    translate: 5;
     display: flex;
+    background-image: url(../images/thumb-1920-707865.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
     justify-content: space-around;
-    align-items: center;
-    position: fixed;
-}
-
-img{
-    width: 300px;
-    height: 100%;
-    background-image: cover;
+    align-items: left;
+    flex-direction: column;
+    padding: 15px 80px;
+    background-attachment: fixed;
+    flex-wrap: wrap;
 }
 
 a{
     padding: 0px 15px;
-    color:black;
+    color:rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-size: 15px;
+}
+
+#links{
+    display: flex;
+    align-self: center;
+}
+#programador ul {
+    display: flex;
+    justify-content:center;
+    
+}
+
+#programador a{
+    padding: 0px 15px;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#programador a:hover{
+    color:red;
 }
 
 a:hover{
     color: rgb(245, 21, 21);
 }
 
-section{
-    background-image: url(../images/thumb-1920-707865.jpg);
-    width:100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    display:flex;
-    justify-content: space-around;
-    align-items: left;
-    flex-direction: column;
-    padding: 50px;
-    background-attachment: fixed;
-}
-
-section h1{
-    
-    width: 300px;
-}
-
-section p{
-
-    color: rgb(255, 255, 255);
-}
-section h1, p{
+header h1, p{
     text-transform: uppercase;
     color: white;
-    
-}
-
-section p{
-    width:300px
+    width: 300px;    
 }
 
 iframe{
     width:100%;
     height:100vh;
     background-attachment: fixed;
+}
 
+@media screen and (max-width:530px){
+    header{
+        background-image: url(/images/pexels-jeswin-thomas-1607862.jpg);
+        
+        padding: 30px;
+    }
+    
+    a{
+        padding: 0px 5px;
+    }
+
+
+    header h1{
+        width:auto;
+        font-size: 30px;
+        color: rgb(250, 250, 250);
+    }
+
+    header p{
+        min-width: 200px;
+        width:80vw;
+        color: white;
+    }
+
+    header p:hover{
+        color: rgb(255, 0, 0);
+        padding: 10px;
+        border:4px solid black;
+        border-radius: 10px;
+    }
+
+    header h1:hover{
+        border-bottom:3px solid black;
+        
+        color: red;
+    }
+
+    #programador li {
+        display: flex;
+        flex-direction: column;
+        }
+    #programador a{
+        padding: 5px;
+
+    }
 }
