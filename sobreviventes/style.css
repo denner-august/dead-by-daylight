@@ -84,9 +84,25 @@ a:hover{
     flex-direction: row;
     border: 5px solid black;
     border-radius: 30px;
-    margin: 15px;
-    padding:10px;
+    margin: 5px;
+    padding:3px;
     
+    
+}
+
+/*Segundo sobrevivente*/
+.sobrevivente-2 {
+    width: 100px;
+    height: 150px;
+}
+
+.ordem-2{
+    display: flex;
+    flex-direction: row;
+    border: 4.5px solid black;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
 }
 
 @media screen and (max-width:500px){
