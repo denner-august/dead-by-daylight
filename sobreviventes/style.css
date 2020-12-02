@@ -138,12 +138,16 @@ a:hover{
     }
     .sobreviventes{
         padding: 0;
-        
     }
+    
     .ordem, .ordem-2{
         text-align: center;
         margin: auto;
         margin-top: 5px;
         
     }
+    .ordem-2{
+        margin-bottom: 10px;
+    }
+    
 }
