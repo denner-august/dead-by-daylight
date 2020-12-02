@@ -7,6 +7,7 @@
     list-style: none;
 }
 
+
 .sobrevivente{
     width:  100px;
     height: 150px;
@@ -33,6 +34,7 @@ header{
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    position:fixed;
 }
 
 header li, a{
@@ -105,9 +107,12 @@ a:hover{
     padding: 5px;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:740px){
+    
+
     header{
         height: 150px;
+        
     }
     
     header ul li{
@@ -119,5 +124,26 @@ a:hover{
         padding: 5px 0px;
         transition: 900ms;
     }
+
+    #descricao{
+        margin: auto;
+        align-items: center;
+        text-align: center;
+    }
     
+    .sobreviventes-1{
+        justify-content:center;
+        flex-direction: column;
+        margin:auto;
+    }
+    .sobreviventes{
+        padding: 0;
+        
+    }
+    .ordem, .ordem-2{
+        text-align: center;
+        margin: auto;
+        margin-top: 5px;
+        
+    }
 }
