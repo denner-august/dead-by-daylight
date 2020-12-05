@@ -88,10 +88,20 @@ iframe{
         color: rgb(250, 250, 250);
     }
 
+    #links ul li{
+        display: flex;
+        flex-direction: column;
+    }
+    #links ul li a{
+        padding: 5px 15px;
+        
+    }
+
     header p{
         min-width: 200px;
         width:80vw;
         color: white;
+        line-height: 25px;
     }
 
     header p:hover{

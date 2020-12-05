@@ -28,13 +28,12 @@ img{
 header{
     width: 100%;
     height: 50px;
-    background-color: rgb(245, 241, 241);
+    background-color: white;
     translate: 5;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    position:fixed;
 }
 
 header li, a{
@@ -117,11 +116,15 @@ a:hover{
     
     header ul li{
         display: flex;
-        flex-direction: column ;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
+   
+
     header ul li a{
-        padding: 5px 0px;
+       
+        padding: 10px 15px;
         transition: 900ms;
     }
 
@@ -141,13 +144,13 @@ a:hover{
     }
     
     .ordem, .ordem-2{
-        text-align: center;
+        text-align: left;
         margin: auto;
         margin-top: 5px;
         
     }
     .ordem-2{
-        margin-bottom: 10px;
+        margin-bottom: 25px;
     }
     
 }
