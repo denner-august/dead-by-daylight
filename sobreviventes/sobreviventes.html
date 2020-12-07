@@ -7,18 +7,26 @@
     <title>Wiki Dead By Daylight</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
     <link rel="shortcut icon" href="../images/gamepad.png" type="image/x-icon">
 </head>
 
 <body>
     <header>
-        <ul>
-            <li>
-                <a href="../index.html">Começo</a>
-                <a href="../sobreviventes/index.html">Sobreviventes</a>
-                <a href="#">Assasinos</a>
-                <a href="https://support.deadbydaylight.com/hc/en-us" target="blank">Help</a>
+        <a href="#menu" class="btnMenu btnMenu_open">menu</a>
+
+        <ul id="menu" class='menu'>
+            <li class='btnMenu btnMenu_close'>fechado</li>
+            <li class="menu-item">
+                <a href="../index.html" class='menu-item-action'>Começo</a>
+            </li>
+            <li class='menu-item'>
+                <a href="#" class='menu-item-action' >Assasinos</a>
+            </li>
+
+            <li class='menu-item'>
+                <a href="https://support.deadbydaylight.com/hc/en-us" class='menu-item-action' target="blank">Help</a>
             </li>
         </ul>
         </div>
@@ -214,5 +222,7 @@
 
 
 </body>
+
+    <script src="../sobreviventes/js/mobile.js"></script>
 
 </html>

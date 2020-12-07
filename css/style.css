@@ -73,7 +73,7 @@ iframe{
 
 @media screen and (max-width:530px){
     header{
-        background-image: url(../images/pexels-jeswin-thomas-1607862.jpg);
+        background-image: url(../images/black-product-background.jpg);
         padding: 30px;
     }
     
@@ -97,6 +97,11 @@ iframe{
         
     }
 
+    #links ul li a:hover{
+        font-size: 20px;
+        
+    }
+
     header p{
         min-width: 200px;
         width:80vw;
@@ -105,7 +110,7 @@ iframe{
     }
 
     header p:hover{
-        color: rgb(255, 0, 0);
+        color:rgb(250, 112, 0);
         padding: 10px;
         border:4px solid black;
         border-radius: 10px;
@@ -113,16 +118,21 @@ iframe{
 
     header h1:hover{
         border-bottom:3px solid black;
+        color:rgb(250, 112, 0);
+    }
+
+    #programador ul li a:hover{
+        font-size: 30px;
         
-        color: red;
     }
 
     #programador li {
         display: flex;
         flex-direction: column;
-        }
+        
+    }
     #programador a{
-        padding: 5px;
+        padding: 5px 0px;
 
     }
 }

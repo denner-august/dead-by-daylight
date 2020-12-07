@@ -1,0 +1,80 @@
+@media screen and (max-width:740px){
+    .btnMenu{
+        display:initial;
+    }
+
+    header{
+        height: auto;
+        display:flex;
+        flex-direction: column;
+        justify-content: initial;
+        align-items: initial;
+        line-height: 30px;
+    }
+
+    header ul li a{
+        border-bottom: 1px solid
+        black;
+        width: 100%;
+        display: block;
+        font-size: 15px;
+       
+    }
+
+    .menu{
+        position: absolute;
+        width:100%;
+        height: 100%;
+        top: 0;
+        transform: translateX(-100%);
+        transition: transform 100ms linear;
+    }
+
+    .menu_open{
+        transform: translateX(0);
+        
+
+    }
+    #menu{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #menu a{
+        display:flex;
+        justify-content: center;
+    }
+
+    #menu ul{
+        height: 100%;
+    }
+
+    .btnMenu_open{
+        background-image: url(../images-mobile/quadrado.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 50px;
+        width:100px;
+        text-indent: -99999px;
+        margin:10px
+    }
+
+    .btnMenu_close{
+        
+        background-image: url(../images-mobile/cancel.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 80px;
+        width:auto;
+        text-indent: -99999px;
+
+    }
+    
+
+    
+    
+    
+    
+
+}
