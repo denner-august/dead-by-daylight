@@ -126,14 +126,18 @@ a:hover{
         align-items: center;
         text-align: center;
     }
+
+    .sobreviventes{
+        padding:10px 40px;
+    }
     
     .sobreviventes-1{
         justify-content:center;
         flex-direction: column;
         margin:auto;
     }
-    .sobreviventes{
-        padding-top:90px;
+    .header{
+        padding-top:30%;
     }
     
     .ordem, .ordem-2{
