@@ -10,3 +10,4 @@ btnmenu.addEventListener('click', function(){
 btnclose.addEventListener('click', function(){
     menu.classList.remove('menu_open');
 })
+

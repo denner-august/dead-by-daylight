@@ -11,7 +11,7 @@
 header{
     width: 100%;
     display: flex;
-    background-image: url(../images/thumb-1920-707865.jpg);
+    background-image: url(../images/backgroundimage.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -73,7 +73,7 @@ iframe{
 
 @media screen and (max-width:530px){
     header{
-        background-image: url(../images/black-product-background.jpg);
+        background-image: url(../images/backgroundmobile.jpg);
         padding: 30px;
     }
     
