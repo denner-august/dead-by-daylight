@@ -11,17 +11,6 @@
         justify-content: initial;
     }
 
-    header ul li a{
-        border-bottom: 1px solid;
-        display: block;
-        padding-bottom: 5vh;
-        
-        
-       
-    }
-
-    
-    
     .menu{
         position: absolute;
         width:100%;
@@ -42,7 +31,7 @@
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
 
@@ -66,7 +55,6 @@
         background-size: contain;
         height: 8vh;
         width: 15vw;
-       
         margin:10px 10px;
         
     }
@@ -80,10 +68,8 @@
         background-image: url(../images-mobile/cancel.svg);
         background-repeat: no-repeat;
         background-size: contain;
-        height: 10vh;
-        margin-top: 10px;
+        height: 8vh;
         width:auto;
-       
         background-position: 20px 0px;
         cursor: pointer;
     }
